@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+
+dependencies {
+    implementation "com.android.support:appcompat-v7:$rootProject.ext.supportVersion"
+    implementation "com.android.support:support-v4:$rootProject.ext.supportVersion"
+    api "com.google.android.gms:play-services-games:16.0.0"
+    api "com.google.android.gms:play-services-plus:16.0.0"
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion 14
+        versionCode 1
+        versionName "1.0"
+    }
+}
