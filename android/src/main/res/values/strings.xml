@@ -1,19 +1,3 @@
 <resources>
-    <string name="app_name">Memory Game</string>
-    <!--TODO - OK-->
-    <string name="face_app_id" translatable="false">1968154963396297</string>
-    <!--TODO OK-->
-    <string name="app_id" translatable="false">737812771340</string>
-
-    <string name="key_view_position" translatable="false">key_view_position</string>
-    <string name="key_click_event_id" translatable="false">key_click_event_id</string>
-
     <string name="signin_failure" translatable="false">Failed to sign in. Please check your network connection and try again.</string>
-    <string name="tai_tro_boi">Sponsored by: </string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="confirm_exit">Are you sure want to quit?</string>
-    <string name="dac_biet">Important</string>
-
-
 </resources>
