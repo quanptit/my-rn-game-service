@@ -5,11 +5,22 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install_npm": "yarn install",
+    "npm_publish": "npm publish",
+    "link_d": "yarn link rn-fetch-blob react-native-router-flux @types/react @types/react-native @types/lodash react react-native lodash my-rn-base-component my-rn-base-utils my-rn-common-resource"
+
   },
   "keywords": [
-    "ads"
+    "react-native"
   ],
+  "author": "Quan Trinh Van",
+  "license": "ISC",
+  "homepage": "https://github.com/quanptit/my-rn-game-service",
+  "bugs": "https://github.com/quanptit/my-rn-game-service/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quanptit/my-rn-game-service.git"
+  },
   "author": "Quan Trinh Van",
   "license": "Quan Trinh Van",
   "nativePackage": true,
