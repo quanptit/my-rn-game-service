@@ -1,4 +1,4 @@
-ext.addAdsProjectSetting = { ->
+ext.addProjectSetting = { ->
     include ':BaseGameUtils'
     project(':BaseGameUtils').projectDir = new File('../node_modules/my-rn-game-service/BaseGameUtils')
 }
