@@ -128,7 +128,7 @@ public class RNGameService extends ReactContextBaseJavaModule implements Lifecyc
         if (requestCode == RC_SIGN_IN) {
             mSignInClicked = false;
             mResolvingConnectionFailure = false;
-            if (resultCode == Activity.RESULT_OK) {
+            if (resultCode == Activity.RESULT_OK && mGoogleApiClient != null) {
                 mGoogleApiClient.connect();
             } else {
                 BaseGameUtils.showActivityResultError(getCurrentActivity(), requestCode, resultCode, R.string.signin_failure);
